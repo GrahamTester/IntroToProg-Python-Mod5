@@ -30,7 +30,7 @@ students: list = []  # a table of student data
 file = None  # Holds a reference to an opened file.
 menu_choice: str = ''  # Hold the choice made by the user.
 
-# When the program starts, read the file data into a list of lists (table)
+# When the program starts, read the file data into a list of dictionaries (table)
 # Extract the data from the file
 try:
     file = open(FILE_NAME, "r")

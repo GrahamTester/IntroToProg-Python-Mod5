@@ -81,10 +81,9 @@ while True:
         print("-" * 50)
         try:
             for student in students:
-                print(f"Student {student['FirstName']} "
-                      f"{student['LastName']}"
-                      f" is enrolled in "
-                      f"{student['CourseName']}.\n")
+                print(f"{student['FirstName']},"
+                      f"{student['LastName']},"
+                      f"{student['CourseName']}")
         except Exception as e:
             print("An error occurred while attempting to display"
                   " student data.")
